@@ -1,0 +1,86 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 118, 1) 35%, rgba(255, 0, 232, 1) 100%);
+
+}
+
+
+.caixa {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#principal{
+    display: flex ;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#form {
+    padding: 50px;
+    background-color: transparent black;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    -webkit-box-shadow: 0px -1px 25px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -1px 25px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -1px 25px 7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+#nome {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#nome:hover {
+    padding: 7px;
+}
+
+#password {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#password:hover {
+    padding: 7px;
+}
+
+#email {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#email:hover {
+    padding: 7px;
+}
+
+#btn {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px;
+}
+
+#btn:active {
+    padding: 7px;
+
+}
+
+#minidiv {
+    display: flex;
+    gap: 2em;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+}
