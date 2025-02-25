@@ -24,33 +24,6 @@ O projeto permite que os usuários se registrem com um email e senha, façam log
 - Werkzeug
 - Bootstrap
 
-## Instalação
-
-1. Clone este repositório:
-
-    ```bash
-    git clone https://github.com/seu-usuario/SistemaLoginRegistro.git
-    ```
-
-2. Navegue até o diretório do projeto:
-
-    ```bash
-    cd SistemaLoginRegistro
-    ```
-
-3. Crie e ative um ambiente virtual:
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
-    ```
-
-4. Instale as dependências:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Uso
 
 1. Inicie o servidor Flask:
@@ -69,9 +42,4 @@ O projeto permite que os usuários se registrem com um email e senha, façam log
   - `register.html`: Página de registro.
   - `home.html`: Página inicial onde os usuários podem registrar problemas.
 - `static/style.css`: Contém os estilos customizados para a aplicação.
-- `requirements.txt`: Lista de dependências do projeto.
-
-### Exemplo de `requirements.txt`
-
-Certifique-se de incluir as dependências necessárias no seu arquivo `requirements.txt`:
 
